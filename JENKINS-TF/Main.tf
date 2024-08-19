@@ -41,6 +41,6 @@ resource "aws_instance" "web" {
     Name = "Jenkins-sonar"
   }
   root_block_device {
-    volume_size = 30
+    volume_size = 25
   }
 }
